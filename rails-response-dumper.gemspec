@@ -18,5 +18,5 @@ Gem::Specification.new do |spec|
   spec.metadata = { 'rubygems_mfa_required' => 'true' }
   spec.required_ruby_version = '>= 3.0'
   spec.add_dependency 'rails', '>= 6.1', '< 8'
-  spec.add_dependency 'rspec-mocks'
+  spec.add_dependency 'rspec-mocks', '>= 2.1.0'
 end
